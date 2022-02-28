@@ -1,0 +1,107 @@
+#logo
+{width:268px;height: 68px;
+    margin-left:150px;
+}
+.nav{
+    display:flex;
+    justify-content: space-around;
+
+
+  }
+
+li{
+        display: inline-block;
+        color:grey;
+margin: 10px;
+    }
+
+ 
+.main-menu{
+    color: #ababab;
+    display: block;
+    text-decoration: none;
+    padding: 0 0.6em;
+}
+.main-menu a:hover{
+    color: aquamarine;
+  }
+  a {
+      text-decoration: none;
+      color: grey;
+  }
+  .content
+{
+    color: green;
+}
+.imagesrc {
+    width :40px;
+    height : 40px;
+    margin-left: 800px;
+   }
+.title1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 6;
+  text-align: center;
+  text-justify: center;
+  color:#20c997;
+}
+h1{
+    
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.row
+{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+}
+.col
+{
+    display: flex;
+    flex-direction: column;
+  
+  
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.centered {
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+    text-align: left;
+    flex-direction: row;
+
+  }
+ 
+  .element1{
+    background-color:#20c997;
+  
+  
+  }
+  .element0{
+    color: white;
+    border-radius: 10px;
+    height: 380px;
+    width: 311px;
+  
+  }
+  .element2{
+    background-color:#1E90FF;
+  
+  }
+  .element3{
+    background-color:#263a50;
+  
+  
+  }
